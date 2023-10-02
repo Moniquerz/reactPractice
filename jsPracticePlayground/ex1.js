@@ -51,3 +51,20 @@ class Car {
 //using class to create a new object
 const myCar1 = new Car("honda", 2020)
 console.log(myCar1)
+
+
+
+//arrays 
+
+//map
+const myNumbers = [55, 13, 78]
+const newNumbers = myNumbers.map(index => index + 1)
+console.log(newNumbers)
+
+const [firstName, lastName] = ["Annie", "Smith"]
+console.log(firstName)
+
+
+const {name : userName, age : userAge} = {name: "Max", age: 35}
+console.log(userAge)
+console.log(userName)
