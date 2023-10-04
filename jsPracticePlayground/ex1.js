@@ -89,3 +89,17 @@ for (const hobby of sports) {
 }
 
 //passing function as a value to another function
+//this one will console log the message after 2000 ms
+setTimeout(()=> {
+    console.log("Timed out")
+}, 2000)
+
+//defining a function inside a function 
+function init() {
+    function greet() {
+        console.log("hellooo from init greet")
+    }
+    greet();
+}
+
+init()
