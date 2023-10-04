@@ -68,3 +68,24 @@ console.log(firstName)
 const {name : userName, age : userAge} = {name: "Max", age: 35}
 console.log(userAge)
 console.log(userName)
+
+//merging arrays using spread operator
+const mergedNumbers = [...myNumbers, ...newNumbers]
+console.log(mergedNumbers)
+
+//control structures
+//if else 
+//for loop
+//switch case
+//while loop
+//do while loops
+
+//for loop through an array 
+const sports = ["basketball", "baseball", "football"]
+
+//creating a new const variable for every index of the sports array
+for (const hobby of sports) {
+    console.log(hobby)
+}
+
+//passing function as a value to another function
