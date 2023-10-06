@@ -16,7 +16,7 @@ function App() {
     },
     {
       id: "e3",
-      title: "Equiptment",
+      title: "Equipment",
       amount: "18,000",
       date: new Date(2023, 1, 15),
     },
