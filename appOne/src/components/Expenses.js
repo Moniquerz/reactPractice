@@ -27,8 +27,6 @@ function Expenses(props) {
         </div>
     )
 
-
-
 }
 
 export default Expenses;
